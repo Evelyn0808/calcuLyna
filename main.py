@@ -37,7 +37,7 @@ ScreenManager:
             # Cambiado a Image local usando kuromii.png
             Image:
                 id: kuromi_img
-                source: "kuromii.png"
+                source: "kuromi.png"
                 size_hint: None, None
                 size: "180dp", "180dp"
                 pos_hint: {"center_x": 0.5, "center_y": 0.5}
