@@ -34,9 +34,10 @@ ScreenManager:
         MDFloatLayout:
             size_hint_y: 0.35
 
-            AsyncImage:
+            # Cambiado a Image local usando kuromii.png
+            Image:
                 id: kuromi_img
-                source: "https://i.pinimg.com/736x/e0/92/99/e092998644ad57af9f1d93bbe4332635.jpg"
+                source: "kuromii.png"
                 size_hint: None, None
                 size: "180dp", "180dp"
                 pos_hint: {"center_x": 0.5, "center_y": 0.5}
